@@ -1,7 +1,7 @@
 {
   "name": "hapi-swaggered-ui",
   "description": "Easy swagger-ui drop-in plugin for hapi to be used with hapi-swaggered.",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "author": "Timo Behrmann",
   "repository": {
     "type": "git",
@@ -20,22 +20,22 @@
     "hapi"
   ],
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12.0.0"
   },
   "dependencies": {
-    "handlebars": "^4.0.11",
-    "hoek": "^5.0.3",
-    "inert": "^5.1.0",
-    "joi": "^13.1.2",
-    "lodash": "^4.17.5",
-    "swagger-ui-dist": "^3.12.0",
-    "vision": "^5.3.1"
+    "@hapi/hoek": "^9.0.3",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.0",
+    "@hapi/vision": "^6.0.0",
+    "handlebars": "^4.7.3",
+    "lodash": "^4.17.15",
+    "swagger-ui-dist": "^3.12.0"
   },
   "devDependencies": {
-    "code": "^5.2.0",
-    "hapi": "^17.2.2",
-    "lab": "^15.3.1",
-    "standard": "^11.0.0"
+    "@hapi/code": "^8.0.1",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/lab": "^22.0.3",
+    "standard": "^14.3.1"
   },
   "scripts": {
     "lint": "standard",
@@ -43,7 +43,7 @@
     "posttest": "npm run lint"
   },
   "peerDependencies": {
-    "hapi": ">= 17.x.x"
+    "@hapi/hapi": ">= 19.x.x"
   },
   "homepage": "https://github.com/z0mt3c/hapi-swaggered-ui#readme",
   "directories": {

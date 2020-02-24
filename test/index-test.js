@@ -1,11 +1,11 @@
 'use strict'
 
-const Hapi = require('hapi')
-const Code = require('code')
-const Lab = require('lab')
-let lab = exports.lab = Lab.script()
-const inert = require('inert')
-const vision = require('vision')
+const Hapi = require('@hapi/hapi')
+const Code = require('@hapi/code')
+const Lab = require('@hapi/lab')
+const lab = exports.lab = Lab.script()
+const inert = require('@hapi/inert')
+const vision = require('@hapi/vision')
 const plugin = require('../')
 
 const describe = lab.describe
